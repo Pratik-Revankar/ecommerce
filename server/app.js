@@ -11,7 +11,7 @@ const errorMiddleware = require("./middleware/error");
 
 app.use(
   cors({
-    origin: "https://floopkart.netlify.app/",
+    origin: "https://floopkart.netlify.app",
     credentials: true,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     allowedHeaders: "Access-Control-Allow-Headers,Content-Type,Authorization",
